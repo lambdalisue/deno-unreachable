@@ -1,0 +1,12 @@
+{
+  "name": "@lambdalisue/async",
+  "version": "0.0.0",
+  "exports": "./mod.ts",
+  "tasks": {
+    "check": "deno check ./**/*.ts",
+    "test": "deno test -A --parallel --shuffle --doc"
+  },
+  "imports": {
+    "https://deno.land/x/unreachable@$MODULE_VERSION/": "./"
+  }
+}
