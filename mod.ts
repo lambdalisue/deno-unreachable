@@ -39,12 +39,11 @@ export class UnreachableError extends Error {
  *   }
  * }
  * say("dog");
- * main();
  * ```
  *
  * But the following code because a case for "bird" is missing.
  *
- * ```ts
+ * ```
  * import { unreachable } from "./mod.ts";
  *
  * type Animal = "dog" | "cat" | "bird";
@@ -62,7 +61,6 @@ export class UnreachableError extends Error {
  *   }
  * }
  * say("dog");
- * main();
  * ```
  */
 export function unreachable(...args: never[]): never {
