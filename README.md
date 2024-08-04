@@ -1,3 +1,9 @@
+> [!WARNING]
+>
+> Use `unreachable` provided by [`@core/errorutil`](https://jsr.io/@core/errorutil) instead
+>
+> - https://github.com/jsr-core/errorutil
+
 # unreachable
 
 [![jsr](https://img.shields.io/jsr/v/%40lambdalisue/unreachable?logo=javascript&logoColor=white)](https://jsr.io/@lambdalisue/unreachable)
